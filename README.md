@@ -6,32 +6,15 @@ https://github.com/abhishek2276/projectblockfrontend.git
 
 # ⚙️ Setup Instructions
 🔧 Prerequisites
-Node.js (v18+ recommended)
-
-PostgreSQL
-
-npm
+next.js 
 
 📦 Install dependencies
 
 npm install
-🗄️ Database Setup
-Create a PostgreSQL database.
-
-Update config/config.json or your .env file with the DB credentials.
-
-Run Sequelize migrations:
-
-
-npx sequelize-cli db:migrate
-🚀 Run the App
-🧪 Run in Dev Mode
-
+# run the app 
 npm run dev
-✅ Run Unit Tests
 
-npm test
-📁 Features
+# 📁 Features
 Upload DXF files
 
 Extract and store block names and coordinates
