@@ -1,10 +1,10 @@
-🛠️ CAD File Block Viewer (DXF)
+# 🛠️ CAD File Block Viewer (DXF)
 A full-stack application to upload and parse CAD (DXF) files, extract block data (like coordinates), and display it in a searchable interface.
 
 # git clone
+https://github.com/abhishek2276/projectblock.git
 
-
-⚙️ Setup Instructions
+# ⚙️ Setup Instructions
 🔧 Prerequisites
 Node.js (v18+ recommended)
 
@@ -42,7 +42,7 @@ View individual block properties
 
 Paginated block list
 
-🧩 Database Schema (PostgreSQL)
+# 🧩 Database Schema (PostgreSQL)
 1. Files Table
 Column	Type	Description
 id	UUID	Primary key
@@ -56,7 +56,7 @@ blockName	STRING	Name of the block
 x	FLOAT	X coordinate
 y	FLOAT	Y coordinate
 z	FLOAT	Z coordinate
-🛠️ API Documentation
+# 🛠️ API Documentation
 🔹 POST /api/files/upload
 Description: Upload DXF file and store its blocks
 Body: multipart/form-data with file field
@@ -96,7 +96,7 @@ coordinates:[
 🔹 GET /api/files/blocks
 Description: Get all the stored blocks 
 
-📚 Reasoning Behind Library Choices
+# 📚 Reasoning Behind Library Choices
 Library	Purpose
 express	Backend framework
 multer	Handle file uploads
@@ -105,7 +105,7 @@ sequelize	ORM for PostgreSQL for ease of migrations/models
 uuid	UUID support for primary keys
 jest	Unit testing framework
 cors	Enable cross-origin requests for frontend
-🤖 AI Coding Assistant Usage
+# 🤖 AI Coding Assistant Usage
 Prompted ChatGPT for:
 
 Sequelize association patterns
