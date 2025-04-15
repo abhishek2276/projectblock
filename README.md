@@ -40,7 +40,7 @@ x	FLOAT	X coordinate
 y	FLOAT	Y coordinate
 z	FLOAT	Z coordinate
 # 🛠️ API Documentation
-🔹 POST /api/files/upload
+@ 🔹 POST /api/files/upload
 Description: Upload DXF file and store its blocks
 Body: multipart/form-data with file field
 Response:
